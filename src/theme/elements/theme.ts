@@ -1,19 +1,19 @@
-import { DefaultTheme } from 'styled-components';
+import { DefaultTheme } from 'styled-components'
 
 export const theme: DefaultTheme = {
-  colors: {
-    primary: '20, 40, 59',
-    secondary: '3, 63 , 99',
-    hoverBackground: '3, 63, 99',
-    button: '204, 144, 12',
-    buttonText: '0, 0, 0',
-    buttonHover: '178, 116, 4',
-    buttonHoverText: '0, 0, 0',
-    text: '255, 255, 255',
-    secondaryText: '255, 255, 255',
-  },
-  windowWidth: 1320,
-  breakpoints: { desktop: 1320, tablet: 768, mobile: 375 },
-};
+    colors: {
+        primary: '59, 116, 114',
+        secondary: '230, 230 , 220',
+        hoverBackground: '196, 139, 141',
+        button: '59, 116, 114',
+        buttonText: '230, 230 , 220',
+        buttonHover: '230, 230 , 220',
+        buttonHoverText: '59, 116, 114',
+        text: '230, 230 , 220',
+        secondaryText: '59, 116, 114',
+    },
+    windowWidth: 1320,
+    breakpoints: { desktop: 1320, tablet: 768, mobile: 375 },
+}
 
-export default theme;
+export default theme
