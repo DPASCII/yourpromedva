@@ -1,6 +1,5 @@
 'use client'
 
-import StyledLink from '@/components/styled-link'
 import React, { useEffect, useRef } from 'react'
 import styled from 'styled-components'
 
